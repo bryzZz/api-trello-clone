@@ -12,10 +12,8 @@ app.use(
 
 app.get('/', (req, res) => {
     res.json({
-        text: 'Test test Test',
+        text: 'Test JSON',
     });
 });
 
-app.listen(PORT, () => {
-    console.log('Server has been started...');
-});
+app.listen(PORT);
